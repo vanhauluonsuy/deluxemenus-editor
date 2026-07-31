@@ -63,232 +63,299 @@ const fields = () => [
     value: 'data',
     extra: true,
     type: 'text',
-    tagName: 'input'
+    tagName: 'input',
+    group: 'basic'
   },
   {
     name: LANG['amount'],
     value: 'amount',
     extra: false,
     type: 'number',
-    tagName: 'input'
+    tagName: 'input',
+    group: 'basic'
   },
   {
     name: LANG['dynamic_amount'],
     value: 'dynamic_amount',
     extra: true,
     type: 'text',
-    tagName: 'input'
+    tagName: 'input',
+    group: 'basic'
   },
   {
     name: LANG['model_data'],
     value: 'model_data',
     extra: true,
     type: 'text',
-    tagName: 'input'
+    tagName: 'input',
+    group: 'appearance'
   },
   {
     name: LANG['nbt_string'],
     value: 'nbt_string',
     extra: true,
     type: 'text',
-    tagName: 'input'
+    tagName: 'input',
+    group: 'appearance'
   },
   {
     name: LANG['nbt_int'],
     value: 'nbt_int',
     extra: true,
     type: 'text',
-    tagName: 'input'
+    tagName: 'input',
+    group: 'appearance'
   },
   {
     name: LANG['banner_meta'],
     value: 'banner_meta',
     extra: true,
     type: 'text',
-    tagName: 'textarea'
+    tagName: 'textarea',
+    group: 'appearance'
   },
   {
     name: LANG['rgb'],
     value: 'rgb',
     extra: true,
     type: 'text',
-    tagName: 'input'
+    tagName: 'input',
+    group: 'appearance'
   },
   {
     name: LANG['base_color'],
     value: 'base_color',
     extra: true,
     type: 'text',
-    tagName: 'input'
+    tagName: 'input',
+    group: 'appearance'
   },
   {
     name: LANG['item_flags'],
     value: 'item_flags',
     extra: true,
     type: 'text',
-    tagName: 'textarea'
+    tagName: 'textarea',
+    group: 'flags'
   },
   {
     name: LANG['potion_effects'],
     value: 'potion_effects',
     extra: true,
     type: 'text',
-    tagName: 'textarea'
+    tagName: 'textarea',
+    group: 'flags'
   },
   {
     name: LANG['entity_type'],
     value: 'entity_type',
     extra: true,
     type: 'text',
-    tagName: 'input'
+    tagName: 'input',
+    group: 'appearance'
   },
   {
     name: LANG['display_name'],
     value: 'display_name',
     extra: false,
     type: 'text',
-    tagName: 'input'
+    tagName: 'input',
+    group: 'basic'
   },
   {
     name: LANG['lore'],
     value: 'lore',
     extra: false,
     type: 'text',
-    tagName: 'textarea'
+    tagName: 'textarea',
+    group: 'basic'
   },
   {
     name: LANG['priority'],
     value: 'priority',
     extra: true,
     type: 'number',
-    tagName: 'input'
+    tagName: 'input',
+    group: 'basic'
   },
   {
     name: LANG['view_requirement'],
     value: 'view_requirement',
     extra: true,
     type: 'text',
-    tagName: 'input'
+    tagName: 'input',
+    group: 'flags'
   },
   {
     name: LANG['enchantments'],
     value: 'enchantments',
     extra: true,
     type: '',
-    tagName: 'textarea'
+    tagName: 'textarea',
+    group: 'flags'
   },
   {
     name: LANG['update'],
     value: 'update',
     extra: true,
     type: 'checkbox',
-    tagName: 'input'
+    tagName: 'input',
+    group: 'flags'
   },
   {
     name: LANG['hide_enchantments'],
     value: 'hide_enchantments',
     extra: true,
     type: 'checkbox',
-    tagName: 'input'
+    tagName: 'input',
+    group: 'flags'
   },
   {
     name: LANG['hide_attributes'],
     value: 'hide_attributes',
     extra: true,
     type: 'checkbox',
-    tagName: 'input'
+    tagName: 'input',
+    group: 'flags'
   },
   {
     name: LANG['hide_effects'],
     value: 'hide_effects',
     extra: true,
     type: 'checkbox',
-    tagName: 'input'
+    tagName: 'input',
+    group: 'flags'
   },
   {
     name: LANG['unbreakable'],
     value: 'unbreakable',
     extra: true,
     type: 'checkbox',
-    tagName: 'input'
+    tagName: 'input',
+    group: 'flags'
   },
   {
     name: LANG['hide_unbreakable'],
     value: 'hide_unbreakable',
     extra: true,
     type: 'checkbox',
-    tagName: 'input'
+    tagName: 'input',
+    group: 'flags'
   },
   {
     name: LANG['left_click_commands'],
     value: 'left_click_commands',
     extra: true,
     type: '',
-    tagName: 'textarea'
+    tagName: 'textarea',
+    group: 'clicks',
+    click: 'left',
+    kind: 'commands'
   },
   {
     name: LANG['right_click_commands'],
     value: 'right_click_commands',
     extra: true,
     type: '',
-    tagName: 'textarea'
+    tagName: 'textarea',
+    group: 'clicks',
+    click: 'right',
+    kind: 'commands'
   },
   {
     name: LANG['middle_click_commands'],
     value: 'middle_click_commands',
     extra: true,
     type: '',
-    tagName: 'textarea'
+    tagName: 'textarea',
+    group: 'clicks',
+    click: 'middle',
+    kind: 'commands'
   },
   {
     name: LANG['shift_left_click_commands'],
     value: 'shift_left_click_commands',
     extra: true,
     type: '',
-    tagName: 'textarea'
+    tagName: 'textarea',
+    group: 'clicks',
+    click: 'shift_left',
+    kind: 'commands'
   },
   {
     name: LANG['shift_right_click_commands'],
     value: 'shift_right_click_commands',
     extra: true,
     type: '',
-    tagName: 'textarea'
+    tagName: 'textarea',
+    group: 'clicks',
+    click: 'shift_right',
+    kind: 'commands'
   },
   {
     name: LANG['left_click_requirement'],
     value: 'left_click_requirement',
     extra: true,
     type: '',
-    tagName: 'textarea'
+    tagName: 'textarea',
+    group: 'clicks',
+    click: 'left',
+    kind: 'requirement'
   },
   {
     name: LANG['right_click_requirement'],
     value: 'right_click_requirement',
     extra: true,
     type: '',
-    tagName: 'textarea'
+    tagName: 'textarea',
+    group: 'clicks',
+    click: 'right',
+    kind: 'requirement'
   },
   {
     name: LANG['middle_click_requirement'],
     value: 'middle_click_requirement',
     extra: true,
     type: '',
-    tagName: 'textarea'
+    tagName: 'textarea',
+    group: 'clicks',
+    click: 'middle',
+    kind: 'requirement'
   },
   {
     name: LANG['shift_left_click_requirement'],
     value: 'shift_left_click_requirement',
     extra: true,
     type: '',
-    tagName: 'textarea'
+    tagName: 'textarea',
+    group: 'clicks',
+    click: 'shift_left',
+    kind: 'requirement'
   },
   {
     name: LANG['shift_right_click_requirement'],
     value: 'shift_right_click_requirement',
     extra: true,
     type: '',
-    tagName: 'textarea'
+    tagName: 'textarea',
+    group: 'clicks',
+    click: 'shift_right',
+    kind: 'requirement'
   },
+];
+
+const CLICK_TYPES = () => [
+  { key: 'left', label: LANG['click_tab_left'] },
+  { key: 'right', label: LANG['click_tab_right'] },
+  { key: 'middle', label: LANG['click_tab_middle'] },
+  { key: 'shift_left', label: LANG['click_tab_shift_left'] },
+  { key: 'shift_right', label: LANG['click_tab_shift_right'] },
+];
+
+const FIELD_GROUPS = () => [
+  { key: 'basic', label: LANG['group_basic'] },
+  { key: 'appearance', label: LANG['group_appearance'] },
+  { key: 'flags', label: LANG['group_flags'] },
 ];
 
 const YAML_DEFAULTS = {
@@ -312,6 +379,9 @@ export class Inventory extends Component {
     size: 0,
     showModal: false,
     showYAMLOpts: false,
+    outputFullscreen: false,
+    activeClickTab: 'left',
+    openGroups: { basic: true, appearance: true, flags: true, clicks: true },
     yamlError: false,
     selected: 0,
     selectedSearch: {},
@@ -414,7 +484,7 @@ export class Inventory extends Component {
       const old = JSON.parse(saved);
       this.setState({
         ...old,
-        aceValue: YAML.dump(this.computedItems(old.items), old.yaml)
+        aceValue: YAML.dump(this.computedItems(old.items, old), old.yaml)
       });
       this.inputRef.current.value = JSON.stringify(old.yaml, null, 4);
       return;
@@ -432,7 +502,7 @@ export class Inventory extends Component {
       currentItem: {
         material: this.computedMaterial(0)
       },
-      aceValue: YAML.dump(this.computedItems(elems), YAML_DEFAULTS)
+      aceValue: YAML.dump(this.computedItems(elems, { size: 9 }), YAML_DEFAULTS)
     });
   }
   selectedSlot = (id) => {
@@ -602,7 +672,7 @@ export class Inventory extends Component {
     }
   }
 
-  computedItems = (itemsOverride) => {
+  computedItems = (itemsOverride, stateOverride) => {
     // eslint-disable-next-line
     const stateItems = itemsOverride || this.state.items;
     let items = stateItems.map($ => {
@@ -627,9 +697,9 @@ export class Inventory extends Component {
     });
 
     let _state = {
-      menu_title: this.state.menu_title,
-      open_command: this.state.open_command,
-      size: this.state.size,
+      menu_title: (stateOverride && stateOverride.menu_title) || this.state.menu_title,
+      open_command: (stateOverride && stateOverride.open_command) || this.state.open_command,
+      size: (stateOverride && stateOverride.size) || this.state.size,
       items: { ...items },
     }
     return _state;
@@ -748,6 +818,126 @@ export class Inventory extends Component {
       showYAMLOpts: !this.state.showYAMLOpts,
     });
   }
+  toggleOutputFullscreen = () => {
+    this.setState({
+      outputFullscreen: !this.state.outputFullscreen,
+    });
+  }
+  setActiveClickTab = (key) => {
+    this.setState({
+      activeClickTab: key,
+    });
+  }
+  toggleGroup = (key) => {
+    this.setState({
+      openGroups: {
+        ...this.state.openGroups,
+        [key]: !this.state.openGroups[key],
+      },
+    });
+  }
+  handleClearAll = () => {
+    if (window.confirm(LANG['confirm_clear_all'] || 'Clear everything and start over?')) {
+      localStorage.clear();
+      window.location.reload(false);
+    }
+  }
+  renderFieldControl = (el, selectedItem) => {
+    if (el.type === 'checkbox') {
+      return (
+        <label className="checkbox-row">
+          <el.tagName
+            checked={!!(selectedItem && selectedItem[el.value])}
+            onChange={this.updateItem}
+            type={el.type}
+            name={el.value}
+          />
+          <span>{el.name}</span>
+        </label>
+      );
+    }
+    return (
+      <div className="value" key={el.value}>
+        <span>{el.name}:</span>
+        <br />
+        <el.tagName
+          value={selectedItem ? selectedItem[el.value] || '' : ''}
+          onChange={this.updateItem}
+          type={el.type}
+          name={el.value}
+        />
+      </div>
+    );
+  }
+  renderFieldGroup = (group) => {
+    const visibleFields = fields().filter(f => f.group === group.key && (!f.extra || this.state.extra));
+    if (visibleFields.length === 0) return null;
+
+    const selectedItem = this.state.items[this.state.selected];
+    const isOpen = this.state.openGroups[group.key];
+    const checkboxFields = visibleFields.filter(f => f.type === 'checkbox');
+    const otherFields = visibleFields.filter(f => f.type !== 'checkbox');
+
+    return (
+      <div className="field-group" key={group.key}>
+        <div className="group-header" onClick={() => this.toggleGroup(group.key)}>
+          <span className={`group-toggle${isOpen ? ' open' : ''}`}>▸</span>
+          <strong>{group.label}</strong>
+          <span className="group-count">{visibleFields.length}</span>
+        </div>
+        {isOpen && (
+          <div className="group-body">
+            {otherFields.map((el) => this.renderFieldControl(el, selectedItem))}
+            {checkboxFields.length > 0 && (
+              <div className="checkbox-grid">
+                {checkboxFields.map((el) => (
+                  <React.Fragment key={el.value}>
+                    {this.renderFieldControl(el, selectedItem)}
+                  </React.Fragment>
+                ))}
+              </div>
+            )}
+          </div>
+        )}
+      </div>
+    );
+  }
+  renderClicksGroup = () => {
+    if (!this.state.extra) return null;
+
+    const _fields = fields();
+    const commandsField = _fields.find(f => f.group === 'clicks' && f.click === this.state.activeClickTab && f.kind === 'commands');
+    const requirementField = _fields.find(f => f.group === 'clicks' && f.click === this.state.activeClickTab && f.kind === 'requirement');
+    const selectedItem = this.state.items[this.state.selected];
+    const isOpen = this.state.openGroups.clicks;
+
+    return (
+      <div className="field-group" key="clicks">
+        <div className="group-header" onClick={() => this.toggleGroup('clicks')}>
+          <span className={`group-toggle${isOpen ? ' open' : ''}`}>▸</span>
+          <strong>{LANG['group_clicks']}</strong>
+        </div>
+        {isOpen && (
+          <div className="group-body">
+            <div className="click-tabs">
+              {CLICK_TYPES().map((ct) => (
+                <button
+                  type="button"
+                  key={ct.key}
+                  className={`click-tab${this.state.activeClickTab === ct.key ? ' active' : ''}`}
+                  onClick={() => this.setActiveClickTab(ct.key)}
+                >
+                  {ct.label}
+                </button>
+              ))}
+            </div>
+            {commandsField && this.renderFieldControl(commandsField, selectedItem)}
+            {requirementField && this.renderFieldControl(requirementField, selectedItem)}
+          </div>
+        )}
+      </div>
+    );
+  }
   updateItem = (e) => {
     let ar = this.state.items;
 
@@ -762,7 +952,7 @@ export class Inventory extends Component {
         val = Number(e.target.value);
         break;
       case 'checkbox':
-        val = Boolean(e.target.value);
+        val = e.target.checked;
         break;
       case 'text':
         val = String(e.target.value);
@@ -889,115 +1079,154 @@ export class Inventory extends Component {
 
   render() {
     return(
-      <div>
-        <div id="output" className={this.state.extra ? "expanded-output" : ""}>
-          <button onClick={this.toggleYAMLOpts} className="download">{LANG['button YAML config']}</button>
-          <div style={{
-            display: this.state.showYAMLOpts ? 'block' : 'none'
-          }}>
-            <div
-              style={{
-                color: 'red',
-                display: this.state.yamlError ? 'block' : 'none'
-              }}
-            >JSON error, fix config</div>
-            <div
-              style={{
-                color: 'blue',
-                fontSize: '14px',
-              }}
-            ><a target='_blank' rel='noopener noreferrer' href="https://github.com/nodeca/js-yaml#dump-object---options-">Options description</a></div>
-            <textarea
-              className='yamlOpts'
-              onChange={this.updateYAMLOpts}
-              ref={this.inputRef}
-              defaultValue={JSON.stringify(this.state.yaml, null, 4)}
-            ></textarea>
-            <button className="download" onClick={this.resetYaml}>{LANG['button Reset YAML']}</button>
+      <div className="app-shell">
+        <header className="app-header">
+          <div className="app-title">DeluxeMenus <span>Editor</span></div>
+          <div className="header-lang">
+            <span className="lang-label">{LANG['Language']}</span>
+            <Dropdown options={LANGLIST} onChange={this._changeLang} value={_lang} />
           </div>
-          <button className="download" onClick={this.downloadYaml}>{LANG['button Download']}</button>
-          <div className="upload-btn-wrapper">
-            <button className="download">{LANG['button Upload'] || 'Upload'}</button>
-            <input type="file" name="myfile" accept=".yml,.yaml" onChange={this.handleUpload} />
-          </div>
-          <button className="download" onClick={() => this.onAceChange(this.state.aceValue, true)}>{LANG['button Load YAML'] || 'Load from Editor'}</button>
-          <AceEditor
-            mode="yaml"
-            theme="chrome"
-            ref={this.aceRef}
-            readOnly={false}
-            onChange={(val) => this.setState({ aceValue: val })}
-            height={this.state.extra ? "calc(100vh - 250px)" : "500px"}
-            width="100%"
-            value={this.state.aceValue}
-            setOptions={{
-              useWorker: false
-            }}
-            />
-        </div>
-        <div style={{
-            display: 'flex',
-            alignItems: 'center'
-          }}>
-          {LANG['Language']}: <Dropdown options={LANGLIST} onChange={this._changeLang} value={_lang} />
-        </div>
-        <br/>
-        <button onClick={() => {localStorage.clear();window.location.reload(false);}}>{LANG['button CLEAR']}</button>
-        <button onClick={this.clearSlot}>{LANG['button Clear slot']}</button>
-        <button onClick={this.changeSize}>{LANG['button Remove row']}</button>
-        <button onClick={this.changeSize}>{LANG['button Add row']}</button>
-        <button onClick={this.showExtra}>{this.state.extra ? LANG['button Hide extra'] : LANG['button Show extra']}</button>
-        <br/><br/>
-        <div className="inventory">
-          <div id="title">
-            <McText
-              prefix='&'
-              randomChars='ABCDEFGHJKLMNOPQRSTUVWXYZ'
-            >
-              {this.state.menu_title || LANG['Menu empty title']}
-            </McText>
+        </header>
 
-          </div>
-          <div className="slotSpace">
-            {this.state.items.map((el, i) => (
-              <Slot
-                key={el.id + '_inv'}
-                id={el.id}
-                lore={(Number.isInteger(el.parent) && this.state.items[el.parent]) ? this.state.items[el.parent].lore : el.lore}
-                selectedSlot={this.selectedSlot}
-                openSearch={this.openSearch}
-                amount={(Number.isInteger(el.parent) && this.state.items[el.parent]) ? this.state.items[el.parent].amount : el.amount}
-                isSelected={this.state.selected === el.id}
-                icon={(Number.isInteger(el.parent) && this.state.items[el.parent]) ? this.state.items[el.parent].icon : el.icon}
-              />
-            ))}
-          </div>
-        </div>
-        <strong>{LANG['Menu info']}</strong>:
-        <div className="value">
-          {LANG['menu_title']}:<br/> <input type="text" name="menu_title" value={this.state.menu_title} onChange={this.handleName} />
-        </div>
-        <div className="value">
-          {LANG['open_command']}:<br/> <input type="text" name="open_command" value={this.state.open_command} onChange={this.handleopen_command} />
-        </div>
-        <br />
-        <strong>{LANG['Item info']}</strong>:
-          {fields().map((el, i) => (
-            <div
-              key={i}
-              className="value"
-              style={{display: !el.extra || this.state.extra ? 'block' : 'none'}}
-            >
-              <span>{el.name}:</span>
-              <br />
-              <el.tagName
-                value={this.state.items[this.state.selected] ? this.state.items[this.state.selected][el.value] || '' : ''}
-                onChange={this.updateItem}
-                type={el.type}
-                name={el.value}
-              />
+        <div className={`main-grid${this.state.outputFullscreen ? ' output-is-fullscreen' : ''}`}>
+          {this.state.outputFullscreen && (
+            <div className="fullscreen-backdrop" onClick={this.toggleOutputFullscreen}></div>
+          )}
+          <div className="left-panel">
+            <div className="panel toolbar">
+              <div className="toolbar-group">
+                <span className="toolbar-label">{LANG['toolbar_grid']}</span>
+                <button onClick={this.changeSize}>{LANG['button Add row']}</button>
+                <button onClick={this.changeSize}>{LANG['button Remove row']}</button>
+                <button onClick={this.clearSlot}>{LANG['button Clear slot']}</button>
+              </div>
+              <div className="toolbar-group">
+                <button
+                  className={`btn-toggle${this.state.extra ? ' active' : ''}`}
+                  onClick={this.showExtra}
+                  title={LANG['toolbar_advanced_hint']}
+                >
+                  {this.state.extra ? LANG['button Hide extra'] : LANG['button Show extra']}
+                </button>
+                <button className="btn-danger" onClick={this.handleClearAll}>{LANG['button CLEAR']}</button>
+              </div>
             </div>
-          ))}
+
+            <div className="panel inventory-panel">
+              <div className="inventory">
+                <div id="title">
+                  <McText
+                    prefix='&'
+                    randomChars='ABCDEFGHJKLMNOPQRSTUVWXYZ'
+                  >
+                    {this.state.menu_title || LANG['Menu empty title']}
+                  </McText>
+                </div>
+                <div className="slotSpace">
+                  {this.state.items.map((el, i) => (
+                    <Slot
+                      key={el.id + '_inv'}
+                      id={el.id}
+                      lore={(Number.isInteger(el.parent) && this.state.items[el.parent]) ? this.state.items[el.parent].lore : el.lore}
+                      selectedSlot={this.selectedSlot}
+                      openSearch={this.openSearch}
+                      amount={(Number.isInteger(el.parent) && this.state.items[el.parent]) ? this.state.items[el.parent].amount : el.amount}
+                      isSelected={this.state.selected === el.id}
+                      icon={(Number.isInteger(el.parent) && this.state.items[el.parent]) ? this.state.items[el.parent].icon : el.icon}
+                    />
+                  ))}
+                </div>
+              </div>
+              <p className="hint-text">{LANG['hint_slot_click']}</p>
+            </div>
+
+            <div className="panel">
+              <div className="panel-title">{LANG['Menu info']}</div>
+              <div className="value">
+                <span>{LANG['menu_title']}:</span>
+                <br/> <input type="text" name="menu_title" value={this.state.menu_title} onChange={this.handleName} />
+              </div>
+              <div className="value">
+                <span>{LANG['open_command']}:</span>
+                <br/> <input type="text" name="open_command" value={this.state.open_command} onChange={this.handleopen_command} />
+              </div>
+            </div>
+
+            <div className="panel">
+              <div className="panel-title">
+                {LANG['Item info']}
+                <span className="selected-slot-badge">{LANG['label_slot']} #{this.state.selected}</span>
+              </div>
+              {FIELD_GROUPS().map((group) => this.renderFieldGroup(group))}
+              {this.renderClicksGroup()}
+            </div>
+          </div>
+
+          <div id="output" className={`right-panel${this.state.outputFullscreen ? ' fullscreen' : ''}`}>
+            <div className="panel-title output-panel-title">
+              {LANG['output_title']}
+              <div className="output-title-actions">
+                <button
+                  className="icon-btn"
+                  onClick={this.toggleYAMLOpts}
+                  title={LANG['button YAML config']}
+                >⚙</button>
+                <button
+                  className="icon-btn"
+                  onClick={this.toggleOutputFullscreen}
+                  title={this.state.outputFullscreen ? LANG['button_collapse'] : LANG['button_expand']}
+                >{this.state.outputFullscreen ? '⤡' : '⤢'}</button>
+              </div>
+            </div>
+
+            <div style={{
+              display: this.state.showYAMLOpts ? 'block' : 'none'
+            }}>
+              <div
+                style={{
+                  color: 'red',
+                  display: this.state.yamlError ? 'block' : 'none'
+                }}
+              >JSON error, fix config</div>
+              <div
+                style={{
+                  color: 'blue',
+                  fontSize: '14px',
+                }}
+              ><a target='_blank' rel='noopener noreferrer' href="https://github.com/nodeca/js-yaml#dump-object---options-">Options description</a></div>
+              <textarea
+                className='yamlOpts'
+                onChange={this.updateYAMLOpts}
+                ref={this.inputRef}
+                defaultValue={JSON.stringify(this.state.yaml, null, 4)}
+              ></textarea>
+              <button className="download" onClick={this.resetYaml}>{LANG['button Reset YAML']}</button>
+            </div>
+
+            <div className="output-toolbar">
+              <button className="download" onClick={this.downloadYaml}>{LANG['button Download']}</button>
+              <div className="upload-btn-wrapper">
+                <button className="download">{LANG['button Upload'] || 'Upload'}</button>
+                <input type="file" name="myfile" accept=".yml,.yaml" onChange={this.handleUpload} />
+              </div>
+              <button className="download" onClick={() => this.onAceChange(this.state.aceValue, true)}>{LANG['button Load YAML'] || 'Load from Editor'}</button>
+            </div>
+
+            <AceEditor
+              mode="yaml"
+              theme="chrome"
+              ref={this.aceRef}
+              readOnly={false}
+              onChange={(val) => this.setState({ aceValue: val })}
+              height={this.state.outputFullscreen ? "calc(100vh - 190px)" : (this.state.extra ? "calc(100vh - 250px)" : "500px")}
+              width="100%"
+              value={this.state.aceValue}
+              setOptions={{
+                useWorker: false
+              }}
+              />
+          </div>
+        </div>
 
         <Modal
           isOpen={this.state.showModal}
