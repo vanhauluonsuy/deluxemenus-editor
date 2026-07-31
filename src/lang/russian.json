@@ -50,5 +50,22 @@
   "right_click_requirement" : "right_click_requirement",
   "middle_click_requirement" : "middle_click_requirement",
   "shift_left_click_requirement" : "shift_left_click_requirement",
-  "shift_right_click_requirement" : "shift_right_click_requirement"
+  "shift_right_click_requirement" : "shift_right_click_requirement",
+  "group_basic": "Основное",
+  "group_appearance": "Внешний вид и мета",
+  "group_flags": "Флаги и эффекты",
+  "group_clicks": "Действия клика",
+  "click_tab_left": "Левый клик",
+  "click_tab_right": "Правый клик",
+  "click_tab_middle": "Средний клик",
+  "click_tab_shift_left": "Shift + Левый",
+  "click_tab_shift_right": "Shift + Правый",
+  "toolbar_grid": "Сетка:",
+  "toolbar_advanced_hint": "Показать или скрыть дополнительные поля предмета",
+  "hint_slot_click": "Левый клик по слоту, чтобы выбрать его, правый клик — открыть поиск предметов.",
+  "label_slot": "Слот",
+  "output_title": "Вывод YAML",
+  "button_expand": "Развернуть панель",
+  "button_collapse": "Свернуть панель",
+  "confirm_clear_all": "Это очистит все данные и начнёт заново. Продолжить?"
 }

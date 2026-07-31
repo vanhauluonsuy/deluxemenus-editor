@@ -52,5 +52,22 @@
   "right_click_requirement" : "Điều kiện click chuột phải",
   "middle_click_requirement" : "Điều kiện click chuột giữa",
   "shift_left_click_requirement" : "Điều kiện shift + chuột trái",
-  "shift_right_click_requirement" : "Điều kiện shift + chuột phải"
+  "shift_right_click_requirement" : "Điều kiện shift + chuột phải",
+  "group_basic": "Cơ bản",
+  "group_appearance": "Giao diện & Meta",
+  "group_flags": "Cờ & Hiệu ứng",
+  "group_clicks": "Hành động Click",
+  "click_tab_left": "Chuột trái",
+  "click_tab_right": "Chuột phải",
+  "click_tab_middle": "Chuột giữa",
+  "click_tab_shift_left": "Shift + Trái",
+  "click_tab_shift_right": "Shift + Phải",
+  "toolbar_grid": "Lưới ô:",
+  "toolbar_advanced_hint": "Hiện hoặc ẩn các trường nâng cao của vật phẩm",
+  "hint_slot_click": "Click trái vào ô để chọn, click phải để mở tìm kiếm vật phẩm.",
+  "label_slot": "Ô",
+  "output_title": "Kết quả YAML",
+  "button_expand": "Phóng to bảng",
+  "button_collapse": "Thu nhỏ bảng",
+  "confirm_clear_all": "Thao tác này sẽ xóa toàn bộ dữ liệu và làm lại từ đầu. Tiếp tục?"
 }

@@ -52,5 +52,22 @@
   "right_click_requirement" : "right_click_requirement",
   "middle_click_requirement" : "middle_click_requirement",
   "shift_left_click_requirement" : "shift_left_click_requirement",
-  "shift_right_click_requirement" : "shift_right_click_requirement"
+  "shift_right_click_requirement" : "shift_right_click_requirement",
+  "group_basic": "Basic",
+  "group_appearance": "Appearance & Meta",
+  "group_flags": "Flags & Effects",
+  "group_clicks": "Click Actions",
+  "click_tab_left": "Left click",
+  "click_tab_right": "Right click",
+  "click_tab_middle": "Middle click",
+  "click_tab_shift_left": "Shift + Left",
+  "click_tab_shift_right": "Shift + Right",
+  "toolbar_grid": "Grid:",
+  "toolbar_advanced_hint": "Show or hide advanced item fields",
+  "hint_slot_click": "Left click a slot to select it, right click to open the item search.",
+  "label_slot": "Slot",
+  "output_title": "YAML Output",
+  "button_expand": "Expand panel",
+  "button_collapse": "Collapse panel",
+  "confirm_clear_all": "This will clear everything and start over. Continue?"
 }

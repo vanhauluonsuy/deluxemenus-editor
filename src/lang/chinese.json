@@ -50,5 +50,22 @@
   "right_click_requirement": "右键点击所需满足条件",
   "middle_click_requirement": "中键点击所需满足条件",
   "shift_left_click_requirement": "Shift + 左键点击所需满足条件",
-  "shift_right_click_requirement": "Shift + 右键点击所需满足条件"
+  "shift_right_click_requirement": "Shift + 右键点击所需满足条件",
+  "group_basic": "基础",
+  "group_appearance": "外观与元数据",
+  "group_flags": "标志与效果",
+  "group_clicks": "点击操作",
+  "click_tab_left": "左键",
+  "click_tab_right": "右键",
+  "click_tab_middle": "中键",
+  "click_tab_shift_left": "Shift + 左键",
+  "click_tab_shift_right": "Shift + 右键",
+  "toolbar_grid": "网格：",
+  "toolbar_advanced_hint": "显示或隐藏高级物品字段",
+  "hint_slot_click": "左键点击槽位以选中，右键点击打开物品搜索。",
+  "label_slot": "槽位",
+  "output_title": "YAML 输出",
+  "button_expand": "展开面板",
+  "button_collapse": "收起面板",
+  "confirm_clear_all": "这将清除所有数据并重新开始，确定继续吗？"
 }
